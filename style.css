@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    flex:auto;
+}
+
+.logo{
+    width: 500px;
+}
+
+.head h1{
+    text-align: center;
+}
+
+/*Styling Buttons */
+
+.buttons{
+    margin: 48px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#rock , #paper , #scissors{
+    margin: 24px;    
+}
+
+#rock:hover , #paper:hover , #scissors:hover{
+    box-shadow: 3px 3px 3px  rgb(56, 67, 72);
+}
+#rock:hover{
+    background-color: rgb(116, 176, 203);
+
+}
+
+#paper:hover{
+    background-color: rgb(245, 97, 149);
+    
+}
+
+#scissors:hover{
+    background-color: rgb(246, 223, 94);
+}
+/*Styling of game Tally*/
+
+.playerIcon, .computerIcon{
+
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.playerIcon IMG, .computerIcon IMG{
+    max-width: 50px;
+    height: auto;
+
+}
+
+.score{
+    width: 20px;
+    height:20px;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.result{
+    width: 200px;
+    height: auto;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 24px;
+    flex-wrap: nowrap;
+}
+
+/*Styling Victor Tag*/
+/*Check*/
+.victor{
+    align-items: center;
+    justify-content: center;
+}
